@@ -1,7 +1,7 @@
 import java.util.Map;
 
 /**
- * Runs the Merge Sort Alogithm parallely for the given Doubly Linked List representation of a Binary Tree.
+ * Runs the Merge Sort Algorithm parallelly for the given Doubly Linked List representation of a Binary Tree.
  */
 public class ParallelMergeSort {
 

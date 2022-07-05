@@ -1,4 +1,8 @@
 
+/**
+ * Parallelly converts the given Sorted Doubly Linked Lists into
+ * Balanced Binary Search Trees (in-place).
+ */
 public class ParallelBalancedBSTBuild {
 
 	// number of logical processors available
