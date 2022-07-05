@@ -7,6 +7,8 @@ public class MergeSort implements Runnable {
 	private BinaryTreeNode head, sortedHead;
 	private int p, r;
 	
+	public MergeSort() {}
+	
 	public MergeSort(BinaryTreeNode head, int p, int r) {
 		this.head = head;
 		this.p = p;
@@ -18,11 +20,11 @@ public class MergeSort implements Runnable {
 		sortedHead = sort(head, p, r);
 	}
 	
-	/*
+	/**
 	 * Sorts the given Doubly Linked List representation of Binary Tree
 	 * Returns the head of the sorted Doubly Linked List.
 	 */
-	private BinaryTreeNode sort(BinaryTreeNode head, int p, int r) {
+	public BinaryTreeNode sort(BinaryTreeNode head, int p, int r) {
 		if(p >= r) {
 			return head;
 		}
